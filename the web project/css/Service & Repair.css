@@ -1,0 +1,251 @@
+body{
+    background-color: black;
+}
+
+h1{
+    position: absolute;
+    top: 50px;
+    color: white;
+    left: 100px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.msg{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 33%;
+    left:100px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+p{
+    color: white;
+    position: absolute;
+    top:37%;
+    left: 100px;
+    font-family:monospace;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.Name{
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    width: 250px;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: black;
+    top: 50%;
+    left: 100px;
+    color: white;
+}
+.Emailaddress{
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    width: 250px;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: black;
+    top: 50%;
+    left: 30%;
+    color: white;
+}
+.problemtype{
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    width: 250px;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: black;
+    top: 65%;
+    left: 100px;
+    color: white;
+}
+.Phonenumber{
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    width: 250px;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: black;
+    top: 65%;
+    left: 30%;
+    color: white;
+}
+.Themessage{
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    width: 560px;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: black;
+    top: 80%;
+    left: 100px;
+    color: white;
+}
+.submit{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+    top: 95%;
+    left: 300px;
+    width: 180px;
+    height:50px;
+    font-size:larger;
+    transition: 1s ease-in-out;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+    border:black;
+}
+.ligning{
+    height: 700px;
+    width: 1px;
+    background-color:white ;
+    position: absolute;
+    left: 770px;
+    top: 33%;
+}
+.msg2{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 60%;
+    top: 35%;
+}
+.p2{
+    position: absolute;
+    left: 790px;
+    top: 230px;
+    padding: 20px;
+    font-family:monospace;
+    font-weight: lighter;
+
+
+}
+.p2 span{
+    font-size: 25px;
+    display: block;
+    font-weight: bold;
+}
+.msg3{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 60%;
+    top: 65%;
+}
+.p3{
+    position: absolute;
+    left: 790px;
+    top: 430px;
+    padding: 20px;
+    font-family:monospace;
+    font-weight: lighter;
+
+
+}
+.ligning2{
+    
+    height: 1px;
+    width: 400px;
+    background-color:white ;
+    position: absolute;
+    left: 850px;
+    top: 60%;
+}
+.p3 span{
+    font-size: 25px;
+    display: block;
+    font-weight: bold;
+}
+.msg4{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 10%;
+    top: 160%;
+}
+.p4{
+    position: absolute;
+    top: 1050px;
+    left:130px;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.p5{
+    position: absolute;
+    top: 1040px;
+    left:730px;
+    font-size: 25px;
+    font-weight:bold;
+    font-family: helvetica;
+}
+.p5 span{
+    font-size: 50px;
+}
+.ligning4{
+    
+    height: 1px;
+    width: 1250px;
+    background-color:white ;
+    position: absolute;
+    left: 50px;
+    top: 150%;
+}
+.msg5{
+    position: absolute;
+    top:110%;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 280px;
+}
+.p6{
+    position: absolute;
+    font-family: monospace;
+    top:120%;
+    font-size: 15px;
+    text-align: center;
+    left: 30px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.041);
+    bottom:-1000px;
+    position: absolute;
+    left: 0px;
+    border-top: 1px white solid;
+}
+.footer p{
+    font-size: 80px;
+    position: absolute;
+    left: 450px;
+    top:0px;
+}

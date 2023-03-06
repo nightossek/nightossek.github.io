@@ -1,0 +1,181 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    --primary-clr: #1C204B;
+    --dot-clr: #BBC0FF;
+    --play: hsl(195, 74%, 62%);
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+}
+   
+.card {
+    font-family: "Arial";
+    color: #fff;
+    display: grid;
+    cursor: pointer;
+    grid-template-rows: 50px 1fr;
+}
+.card:hover .img-section {
+    transform: translateY(1em);
+}
+.card-desc {
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    top: -10px;
+    gap: 10px;
+    background: black;
+}
+.card-time {
+    font-size: 1.7em;
+    font-weight: 500;
+}
+.img-section {
+    transition: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: gray;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.card svg {
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.input {
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: black;
+    border-bottom: #D5CEA3 solid;
+    transition: 0.5s ease-in-out;
+}
+::placeholder {
+    color: white;
+}
+.input:focus {
+    background-color: #D5CEA3;
+}
+
+.input2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+}
+span {
+    position: relative;
+    left: -20px;
+    top: -5px;
+    font-size: 17px;
+}
+i {
+    position: relative;
+    left: -65px;
+    top: -5px;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+i:hover {
+    transform: scale(1.1);
+}
+.car {
+    position: absolute;
+    top: 450px;
+}
+.car .img1 {
+    position: relative;
+    left: -100px;
+    height: 200px;
+    width: 400px;
+    transition: 0.7s ease-out;
+}
+.car img:hover {
+    transform: scale(1.1);
+}
+
+.button {
+    --primary-color: #645bff;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6em;
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+.button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+}
+  
+.button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+}
+  
+.button:hover {
+    background-color: var(--hover-color);
+}
+  
+.button:hover .arrow {
+    background: var(--secondary-color);
+}
+  
+.button:hover .arrow:before {
+    right: 0;
+}
+
+   
